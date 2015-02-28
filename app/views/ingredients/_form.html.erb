@@ -1,0 +1,17 @@
+<%= simple_form_for(@ingredient) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :carbohydrate %>
+    <%= f.input :sugar %>
+    <%= f.input :saturated_fat %>
+    <%= f.input :total_fat %>
+    <%= f.input :protein %>
+    <%= f.input :calories %>
+    <%= f.association :recipe %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>
