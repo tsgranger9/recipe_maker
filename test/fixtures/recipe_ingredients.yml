@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ingredient_id: 
+  recipe_id: 
+  grams: 1.5
+  approved: false
+  calories: 1
+
+two:
+  ingredient_id: 
+  recipe_id: 
+  grams: 1.5
+  approved: false
+  calories: 1
