@@ -1,0 +1,13 @@
+<%= simple_form_for(@recipe) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.association :user %>
+    <%= f.input :directions %>
+    <%= f.input :time_needed %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>
